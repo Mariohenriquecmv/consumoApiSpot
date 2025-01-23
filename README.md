@@ -1,0 +1,1 @@
+# consumoApiSpot Estudo JS
