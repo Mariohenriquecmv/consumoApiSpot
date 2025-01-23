@@ -44,4 +44,15 @@ document.getElementById("openModalBtn").addEventListener("click", function () {
   
 carregarMusicas()
   
-  
+async function cadastrarMusica(){
+    const nomeDigitado = document.querySelector('#trackName').value
+    const duracaoDigitado = document.querySelector('#trackDuration').value
+    const streamsDigitado = document.querySelector('#trackStreams').value
+    const imagemDigitado = document.querySelector('#trackImage').value
+
+    console.log(nomeDigitado)
+    console.log(duracaoDigitado)
+    console.log(streamsDigitado)
+    console.log(imagemDigitado)
+
+}
